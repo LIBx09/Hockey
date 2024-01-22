@@ -19,11 +19,11 @@
     </style>
 </head>
 <body class="manrope">
-    <header class="container mx-auto px-32">
+    <header class="container mx-auto px-4 lg:px-32">
         <div class="navbar py-10">
             <div class="navbar-start">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -35,7 +35,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-4xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                <a class="btn btn-ghost text-2xl md:text-3xl lg:text-4xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-base">
@@ -47,10 +47,40 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <img src="Images/Frame.svg" alt="" class="pr-5">
-                <a class="btn bg-[#FF4240] text-white text-[20px]">Get Ticket</a>
+                <img src="Images/Frame.svg" alt="" class=" md:pr-5">
+                <a class="btn bg-[#FF4240] text-white lg:text-[20px]">Get Ticket</a>
+            </div>
+        </div>
+        <!-- header slider section -->
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full h-full" />
+                    <div class="h-10 w-10 bg to-black absolute bg-cover">
+
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-[#131318]">❮</a> 
+                        <a href="#slide1" class="btn btn-circle bg-[#131318]">❯</a>
+                    </div>
+                </div> 
+            </div>
+            <div class=" mx-auto bg-[#131318] rounded-xl p-5 lg:w-5/12 lg:-translate-y-40 lg:translate-x-44">
+                <h3 class="font-extrabold lg:text-base text-white pb-5 ">Meet all the heroes from the field</h3>
+                <p class=" text-[#FFFFFF99] text-xs">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </div>
     </header>
+    <main class="container mx-auto px-32">
+
+    </main>
+    
 </body>
 </html>
