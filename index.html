@@ -58,19 +58,30 @@
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/slider.png" class="w-full h-full" />
-                    <div class="h-10 w-10 bg to-black absolute bg-cover">
-
-                    </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a> 
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    <div class="absolute flex lg:justify-between justify-start lg:left-5 lg:right-5 top-24 left-32 lg:top-1/2">
+                        <a href="#slide4" class="btn bg-[#131318]">❮</a> 
+                        <a href="#slide2" class="btn bg-[#131318]">❯</a>
                     </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="Images/slider.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle bg-[#131318]">❮</a> 
-                        <a href="#slide1" class="btn btn-circle bg-[#131318]">❯</a>
+                    <div class="absolute flex lg:justify-between justify-start lg:left-5 lg:right-5 top-24 left-32 lg:top-1/2">
+                        <a href="#slide1" class="btn bg-[#131318]">❮</a> 
+                        <a href="#slide3" class="btn bg-[#131318]">❯</a>
+                    </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full" />
+                    <div class="absolute flex lg:justify-between justify-start lg:left-5 lg:right-5 top-24 left-32 lg:top-1/2">
+                        <a href="#slide2" class="btn bg-[#131318]">❮</a> 
+                        <a href="#slide4" class="btn bg-[#131318]">❯</a>
+                    </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full" />
+                    <div class="absolute flex lg:justify-between justify-start lg:left-5 lg:right-5 top-24 left-32 lg:top-1/2">
+                        <a href="#slide1" class="btn bg-[#131318]">❮</a> 
+                        <a href="#slide3" class="btn bg-[#131318]">❯</a>
                     </div>
                 </div> 
             </div>
@@ -132,7 +143,7 @@
             <!-- grid section -->
             <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 md:mx-auto pt-6">
                 <!--ccc  -->
-                <div class="bg-cover bg-content bg-center bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro1.png')] h-[50vh] w-full rounded-xl relative bg-no-repeat p-7">
+                <div class="bg-cover bg-content bg-center bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro1.png')] h-[300px] w-full rounded-xl relative bg-no-repeat p-7">
                     <div class="absolute top-32">
                         <h1 class="font-extrabold text-3xl text-white">Junior Program</h1>
                         <p class="font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis.elit 
@@ -141,7 +152,7 @@
                     </div>
                 </div>
                 <!-- ccc -->
-                <div class="bg-cover bg-center bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro2.png')] h-[50vh] w-full rounded-xl relative bg-no-repeat p-7">
+                <div class="bg-cover bg-center bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro2.png')] h-[300px] w-full rounded-xl relative bg-no-repeat p-7">
                     <div class="absolute top-32">
                         <h1 class="font-extrabold text-3xl text-white">Junior Program</h1>
                         <p class="font-medium text-white">
@@ -150,9 +161,9 @@
                     </div>
                 </div>
                 <!-- ccc -->
-                <div class="bg-cover bg-center md:col-span-2 lg:col-span-2 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro3.png')] rounded-xl relative bg-no-repeat h-[50vh] w-full p-7">
+                <div class="bg-cover bg-center md:col-span-2 lg:col-span-2 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/pro3.png')] rounded-xl relative bg-no-repeat h-[300px] w-full p-7">
                     
-                    <div class="absolute top-28">
+                    <div class="absolute top-24">
                         <h1 class="font-extrabold text-3xl text-white">Junior Program</h1>
                             <p class="font-medium text-white md:w-5/12">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                         enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -482,7 +493,7 @@
                         <div class="mt-5">
                             <label class="font-bold text-xl" for="">Message</label>
                             <textarea class="w-full lg:h-[240px] mt-2 textarea textarea-bordered" placeholder="Write your message"></textarea>
-                            <button class="btn bg-[#FF4240] w-full text-white font-bold text-xl">Send Messsage</button>
+                            <button class="btn bg-[#FF4240] w-full text-white font-bold text-xl">Send Message</button>
                             
                         </div>
                     </div>
@@ -516,7 +527,7 @@
                 <p>(+62) 123-321-543</p>
             </div>
         </div>
-        <!-- secound div -->
+        <!-- secund div -->
         <div class="flex md:justify-between lg:justify-between gap-20 mx-auto text-[#FFFFFF99]">
             <div>
                 <h4 class="text-white text-lg">Company</h4>
